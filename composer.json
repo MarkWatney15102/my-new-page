@@ -1,4 +1,6 @@
 {
     "name": "markwatney15102/homepage",
-    "require": {}
+    "require": {
+        "catfan/medoo": "^1.7"
+    }
 }
