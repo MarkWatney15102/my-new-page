@@ -1,9 +1,12 @@
 import React from 'react';
-import './css/App.css';
-import Navbar from './Navbar';
+import Routing from './Routing';
 
-function App(props) {
-    return <Navbar />;
+class App extends React.Component {
+    render () {
+        return <>
+            <Routing />
+        </>
+    }
 }
 
 export default App;

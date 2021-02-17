@@ -1,0 +1,278 @@
+
+.navbar {
+    background-color: darkslateblue !important;
+    color: aliceblue !important;
+}
+
+.navbar a {
+    font-weight: 600;
+    color: rgba(240,248,255,.9) !important;
+    transition: color ease-in .1s;
+}
+
+.navbar a:hover {
+    color: rgba(240,248,255,.6) !important;
+}
+
+
+/* Background */
+.bg-main {
+    background-color: darkslateblue;
+}
+
+.row,
+.container-fluid {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.page-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.desc {
+    font-size: 1.75rem;
+}
+
+.header {
+    padding: 10px !important;
+}
+
+.header .col-12:last-child {
+    border-top: 1px solid aliceblue;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .header .col-12:last-child {
+        border-top: 0;
+        text-align: left;
+    }
+}
+
+/* Typography */
+.section-padding {
+    padding: 50px 0;
+}
+
+div .headline-box {
+    width: 100%;
+}
+
+.headline-title {
+    color: black;
+    font-size: 2.75rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 33px;
+    min-width: 150px;
+    width: auto;
+}
+
+.headline-box {
+    display: flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+/* Box */
+.box {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    margin-top: 10px;
+    transition: all .3s ease;
+}
+
+.box:hover {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: darkslateblue;
+    color: aliceblue;
+    border-radius: 2px;
+}
+
+.box2 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    margin-top: 5px;
+    transition: all .3s ease;
+}
+
+.box .title {
+    border-bottom: 1px solid darkblue;
+    padding-bottom: 10px;
+    font-size: 1.75rem;
+    display: flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.box:hover .title {
+    color: aliceblue !important;
+    transition: all .3s ease;
+}
+
+.box2 .title {
+    border-bottom: 1px solid darkblue;
+    padding-bottom: 10px;
+    font-size: 1.75rem;
+}
+
+.box .list {
+    list-style: none;
+}
+
+/* Sonstiges */
+.space {
+    margin: 5px !important;
+}
+
+.big-space {
+    margin-top: 50px;
+}
+
+
+.background-image {
+    background-color: #e8e8e8;
+}
+
+.profile-pic {
+    margin: 15px;
+    border-radius: 5px;
+    height: 200px;
+    width: auto;
+}
+
+h1:not(.card-title), 
+h2:not(.card-title), 
+h3:not(.card-title), 
+h4:not(.card-title), 
+h5:not(.card-title), 
+h6:not(.card-title) {
+    color: aliceblue;
+}
+
+.title,
+.headline-title,
+.modal-title {
+    color: black !important;
+}
+
+#instagram a {
+    text-decoration: none;
+}
+
+.instagram-image {
+    transition: .5s ease all;
+    margin: auto;
+    padding: 5px;
+}
+
+.instagram-image:hover {
+    padding: 15px;
+}
+
+.instagram-image-caption {
+    margin-bottom: 10px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+.collapse {
+    transition: .3s ease all;
+}
+
+#home {
+    margin-bottom: 25px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.no-deco li,
+.no-deco ol,
+.no-deco ul,
+.no-deco a
+{
+    text-decoration: none;
+    list-style-type:none;
+}
+
+.social-media {
+    margin-top: 10px !important;
+}
+
+.social-media li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-media i {
+    font-size: 30px;
+}
+
+.social-media li a {
+    color: black;
+    transition: .3s ease all;
+}
+
+.social-media li a:hover {
+    color: #4e555b;
+}
+
+.text-black {
+    color: #1b1e21;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    transition: .3s ease all;
+}
+
+.form-control:hover,
+.form-control:active,
+.form-control:focus {
+    background-color: #4e555b;
+    color: aliceblue;
+}
+
+.form-control:hover::placeholder,
+.form-control:active::placeholder,
+.form-control:focus::placeholder {
+    color: aliceblue;
+}
+
+.navbar {
+    margin-bottom: 25px;
+}
+
+.card-title {
+    margin: auto;
+}
+
+.col-lg-1 > .card,
+.col-lg-2 > .card,
+.col-lg-3 > .card,
+.col-lg-4 > .card,
+.col-lg-5 > .card,
+.col-lg-6 > .card,
+.col-lg-7 > .card,
+.col-lg-8 > .card,
+.col-lg-9 > .card,
+.col-lg-10 > .card,
+.col-lg-11 > .card,
+.col-lg-12 > .card {
+    margin-bottom: 20px;
+}
