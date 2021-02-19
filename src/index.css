@@ -1,3 +1,6 @@
+body {
+    background-color: #e8e8e8 !important;
+}
 
 .navbar {
     background-color: #161B22 !important;
@@ -149,12 +152,8 @@ div .headline-box {
     width: auto;
 }
 
-h1:not(.card-title), 
-h2:not(.card-title), 
-h3:not(.card-title), 
-h4:not(.card-title), 
-h5:not(.card-title), 
-h6:not(.card-title) {
+#page-banner h1, 
+#page-banner h6 {
     color: aliceblue;
 }
 
