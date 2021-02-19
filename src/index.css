@@ -276,3 +276,9 @@ button {
 .col-lg-12 > .card {
     margin-bottom: 20px;
 }
+
+.center {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
