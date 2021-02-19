@@ -13,15 +13,19 @@ class Home extends React.Component {
     }
     render() {
         const { error, isLoaded, projects } = this.state;
+        let projectViewData = <></>;
         if (error) {
-            return <div>Error: {error.message}</div>;
+            projectViewData = <div>Error: {error.message}</div>;
         } else if (!isLoaded) {
-            return <div><Loading /></div>;
+            projectViewData = <div><Loading /></div>;
         } else {
-            return <>
+            projectViewData = <>
                 <Projects projects={projects}/>
             </>;
         }
+        return <>
+            {projectViewData}
+        </>;
     }
     componentWillMount () {
         fetch('https://backend.eikewientjes.de/?method=getProjects',

@@ -1,11 +1,10 @@
 
 .navbar {
-    background-color: darkslateblue !important;
+    background-color: #161B22 !important;
     color: aliceblue !important;
 }
 
 .navbar a {
-    font-weight: 600;
     color: rgba(240,248,255,.9) !important;
     transition: color ease-in .1s;
 }
@@ -13,7 +12,6 @@
 .navbar a:hover {
     color: rgba(240,248,255,.6) !important;
 }
-
 
 /* Background */
 .bg-main {
@@ -254,10 +252,6 @@ button {
     color: aliceblue;
 }
 
-.navbar {
-    margin-bottom: 25px;
-}
-
 .card-title {
     margin: auto;
 }
@@ -281,4 +275,8 @@ button {
     position: absolute;
     top: 45%;
     left: 45%;
+}
+
+#page-banner {
+    margin-bottom: 20px !important;
 }
