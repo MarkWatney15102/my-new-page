@@ -5,11 +5,15 @@ import HomeController from './components/HomeController';
 import AboutController from './components/AboutController';
 import SetupController from './components/SetupController';
 import ProjectsController from './components/ProjectController';
+import ImpressumController from './components/ImpressumController';
 
 class Routing extends React.Component {
     render () {
         return <Router>
             <Switch>
+                <Route path="/impressum">
+                    <ImpressumController />
+                </Route>
                 <Route path="/projects">
                     <ProjectsController />
                 </Route>

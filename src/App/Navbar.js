@@ -20,6 +20,9 @@ class Navbar extends React.Component {
                         <li class="nav-item">
                             <a class="nav-link" href="/setup">Setup</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/impressum">Impressum</a>
+                        </li>
                     </ul>
                 </div>
                 <ul class="float-right no-deco social-media">
