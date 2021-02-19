@@ -290,3 +290,7 @@ button {
 .card-body > ul > li {
     font-size: 20px;
 }
+
+.card {
+    margin-bottom: 20px;
+}

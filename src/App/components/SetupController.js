@@ -1,8 +1,12 @@
 import React from 'react';
 
+import Setup from './Setup/Setup';
+
 class SetupController extends React.Component {
     render () {
-        return <h2>awdaasasdasd</h2>;
+        return (
+            <Setup />
+        );
     }
 }
 
