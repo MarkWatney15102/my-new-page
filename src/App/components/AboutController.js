@@ -1,9 +1,13 @@
 import React from 'react';
 
-class HomeController extends React.Component {
+import HomeController from './HomeController';
+
+class AboutController extends React.Component {
     render () {
-        return <h2>awdaasasdasd</h2>;
+        return (
+            <HomeController />
+        );
     }
 }
 
-export default HomeController;
+export default AboutController;
